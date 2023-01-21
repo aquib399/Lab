@@ -1,3 +1,4 @@
+//Referance Variable
 abstract class car {
     int regno;
 
