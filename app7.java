@@ -1,11 +1,11 @@
 //Method overloading - sequence of arguments
 public class app7 {
     void show(int a, String b) {
-        System.out.println("int then string");
+        System.out.println("int "+a+" then string "+b);
     }
 
     void show(String a, int b) {
-        System.out.println("String then int");
+        System.out.println("String "+a+" then int "+b);
     }
 
     public static void main(String[] args) {
