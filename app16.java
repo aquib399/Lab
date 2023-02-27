@@ -1,15 +1,11 @@
 //Referance Variable
 abstract class car {
     int regno;
-
     car(int r) {
         regno = r;
     }
-
     abstract void print();
-
     abstract void steering(int direction, int angle);
-
     abstract void braking(int force);
 }
 
