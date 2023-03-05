@@ -5,7 +5,7 @@ import java.util.*;
 
 public class app24 {
     public static void main(String args[]) throws Exception {
-        URL obj = new URL("http://www.google.com/index.html");
+        URL obj = new URL("http://www.google.com");
         URLConnection conn = obj.openConnection();
         System.out.println("Date:" + new Date(conn.getDate()));
         System.out.println("Connect-type" + conn.getContentType());
